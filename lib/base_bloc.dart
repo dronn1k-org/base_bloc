@@ -2,8 +2,8 @@ library base_bloc;
 
 import 'package:flutter/material.dart';
 
-abstract class BaseBlocNew<T extends StatefulWidget> {
-  BaseBlocNew(this.state);
+abstract class BaseBloc<T extends StatefulWidget> {
+  BaseBloc(this.state);
 
   State<T> state;
 
